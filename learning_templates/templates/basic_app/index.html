@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+
+{% extends "basic_app/basic.html" %}
+  {% block body_block %}
+    <h1>Welsome to index</h1>
+    <h2>This is temp inheritance</h2>
+    <h1>{{ text|cut:"hello" }}</h1>
+    {{ number|add:"99" }}
+  {% endblock %}
